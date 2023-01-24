@@ -1,13 +1,25 @@
 import './App.css';
 import Header from './components/Header/Header.js';
-import Main from './components/Main/Main.js';
-// import { Route, Switch } from 'react-router-dom';
+
+import { Route, Switch } from 'react-router-dom';
+import ColorDisplay from './components/ColorDisplay.js';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main />
+      <div className="main">
+        <Switch>
+          <Route exact path="/">
+            Home
+          </Route>
+          <Route
+            exact
+            path="/rgb/:redValue/:greenValue/:blueValue"
+            component={ColorDisplay}
+          ></Route>
+        </Switch>
+      </div>
     </div>
   );
 }
