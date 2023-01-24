@@ -11,13 +11,13 @@ export default function Header() {
             <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/rgb/150/250/350">C1</NavLink>
+            <NavLink to="/rgb/21/158/26">Green</NavLink>
           </li>
           <li>
-            <NavLink to="/rgb/100/200/300">C2</NavLink>
+            <NavLink to="/rgb/248/255/14">Yellow</NavLink>
           </li>
           <li>
-            <NavLink to="/rgb/50/100/200">C3</NavLink>
+            <NavLink to="/rgb/255/0/230">Pink</NavLink>
           </li>
         </ul>
       </nav>

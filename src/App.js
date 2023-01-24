@@ -10,9 +10,7 @@ function App() {
       <Header />
       <div className="main">
         <Switch>
-          <Route exact path="/">
-            Home
-          </Route>
+          <Route exact path="/"></Route>
           <Route
             exact
             path="/rgb/:redValue/:greenValue/:blueValue"

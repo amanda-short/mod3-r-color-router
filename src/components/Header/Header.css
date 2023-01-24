@@ -12,11 +12,22 @@ header {
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    color: white;
+    padding: 0px;
 }
 
 nav a.active {
     text-decoration: none;
     font-weight: bold;
     padding: 10px;
+    color: purple;
+}
+
+nav a {
+    color:white;
+}
+nav {
+    display:flex;
+    flex-direction: column;
 }
 
