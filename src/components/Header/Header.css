@@ -1,0 +1,41 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    height: 100px;
+    background-color: black;
+    color: white;   
+}
+
+.colorList {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 35px;
+    color: white;
+    padding: 0px;
+}
+
+nav a.active {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    color: purple;
+}
+
+nav a {
+    color:white;
+    display:flex;
+    flex-direction: column;
+    
+}
+nav {
+    display:flex;
+    flex-direction: column;
+
+    width:600px;
+}
+
+
